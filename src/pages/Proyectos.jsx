@@ -1,11 +1,11 @@
 import Nav from '../layouts/Nav'
-import FormPosts from "../layouts/FormPosts"
+import PostsPosts from '../layouts/PostsPosts'
 
 const Proyectos = () => {
   return (
     <>
       <Nav></Nav>
-      <FormPosts></FormPosts>
+      <PostsPosts></PostsPosts>
     </>
   )
 }
