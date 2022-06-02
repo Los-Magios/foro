@@ -46,7 +46,7 @@ const nav = () => {
                 </Link>
               </li>
             </ul>
-            <Link to="/inicio">
+            <Link to="/">
               <button className="btn btn-outline-danger">Cerrar sesión</button>
             </Link>
           </div>
