@@ -31,33 +31,24 @@ const nav = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="" className="nav-link">
+                <Link to="/articulos" className="nav-link">
                   Artículos
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="" className="nav-link">
+                <Link to="/proyectos" className="nav-link">
                   Proyectos
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="" className="nav-link">
+                <Link to="/foro" className="nav-link">
                   Foro
                 </Link>
               </li>
             </ul>
-            <button className="btn btn-outline-danger">Cerrar sesión</button>
-            {/* <form className="d-flex">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form> */}
+            <Link to="/inicio">
+              <button className="btn btn-outline-danger">Cerrar sesión</button>
+            </Link>
           </div>
         </div>
       </nav>

@@ -1,11 +1,11 @@
-import Nav from '../layouts/nav'
+import Nav from '../layouts/Nav'
 
 const Home = () => {
   return (
     <>
       <Nav></Nav>
       <div>
-        Home
+        En el home debe ir una descripcion del este proyecto e información relevante acerca del uso del mismo
       </div>
     </>
   );
