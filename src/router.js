@@ -8,6 +8,8 @@ import Home from './pages/Home'
 import Articulos from './pages/Articulos'
 import Proyectos from './pages/Proyectos'
 import Foro from './pages/Foro'
+import ArticulosMateria from './pages/Articulos-materia'
+
 
 const Rutas = () => {
   return (
@@ -18,6 +20,7 @@ const Rutas = () => {
         <Route path="/articulos" element={<Articulos />} />
         <Route path="/proyectos" element={<Proyectos />} />
         <Route path="/foro" element={<Foro />} />
+        <Route path="/articulos-materia" element={<ArticulosMateria />} />
       </Routes>
     </Router>
   )
