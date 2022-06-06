@@ -28,7 +28,7 @@ const Foro = () => {
                 </div>
               </div>
               <div className="col-auto ms--2">
-                <Link to="/inicio" className="text-decoration-none text-reset">
+                <Link to="/verpost" className="text-decoration-none text-reset">
                   <h4 className="h6 mt-1">Problema Ejemplo 001</h4>
                 </Link>
               </div>
@@ -46,7 +46,7 @@ const Foro = () => {
                 </div>
               </div>
               <div className="col-auto ms--2">
-                <Link to="/inicio" className="text-decoration-none text-reset">
+                <Link to="/verpost" className="text-decoration-none text-reset">
                   <h4 className="h6 mt-1">Problema Ejemplo 002</h4>
                 </Link>
               </div>
@@ -64,7 +64,7 @@ const Foro = () => {
                 </div>
               </div>
               <div className="col-auto ms--2">
-                <Link to="/inicio" className="text-decoration-none text-reset">
+                <Link to="/verpost" className="text-decoration-none text-reset">
                   <h4 className="h6 mt-1">Problema Ejemplo 003</h4>
                 </Link>
               </div>
