@@ -16,7 +16,7 @@ const Login = () => {
           </div>
           <div className='form-group mb-2'>
             <label>Contraseña</label>
-            <input type="text" className='form-control' placeholder="ingrese su contraseña" />
+            <input type="password" className='form-control' placeholder="ingrese su contraseña" />
           </div>
           <Link to='/inicio'>
             <button className='btn btn-primary'>Ingresar</button>
