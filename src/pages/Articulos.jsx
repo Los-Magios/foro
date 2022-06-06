@@ -1,5 +1,5 @@
 import Nav from '../layouts/Nav'
-import ArticulosMateria from './Articulos-materia'
+// import ArticulosMateria from './Articulos-materia'
 
 const Articulos = (Articulos) => {
   return (
