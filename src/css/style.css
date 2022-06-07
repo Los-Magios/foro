@@ -18,6 +18,16 @@ body {
   z-index: -1;
 }
 
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  /* color: #212529; */
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px;
+}
+
 .bg2 {
   animation-direction: alternate-reverse;
   animation-duration: 4s;
@@ -39,8 +49,19 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.card {
-  width: 18rem;
+.col-2 {
+  padding: 2rem;
+  font-size: 11pt;
+}
+
+.col-4 {
+  padding: 1rem;
+}
+
+.col-10 {
+  width: 50rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
 }
 
 @keyframes slide {

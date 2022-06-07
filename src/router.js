@@ -5,10 +5,10 @@ import {
 } from 'react-router-dom'
 import Login from './pages/Login'
 import Home from './pages/Home'
-import Articulos from './pages/Articulos'
+import Articulos from './pages/Articulos/Articulos'
 import Proyectos from './pages/Proyectos'
 import Foro from './pages/Foro'
-import ArticulosMateria from './pages/Articulos-materia'
+import Materias from './pages/Articulos/Materias'
 
 
 const Rutas = () => {
@@ -20,7 +20,7 @@ const Rutas = () => {
         <Route path="/articulos" element={<Articulos />} />
         <Route path="/proyectos" element={<Proyectos />} />
         <Route path="/foro" element={<Foro />} />
-        <Route path="/articulos-materia" element={<ArticulosMateria />} />
+        <Route path="/articulos/materias" element={<Materias />} />
       </Routes>
     </Router>
   )
