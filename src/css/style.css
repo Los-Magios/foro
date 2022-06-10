@@ -74,5 +74,9 @@ body {
   }
 }
 .container {
-padding-top: 1%;
+ padding-top: 1%;
+}
+
+.manejo {
+  width: 50%;
 }
