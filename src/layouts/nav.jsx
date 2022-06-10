@@ -22,11 +22,7 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link
-                  to="/inicio"
-                  className="nav-link active"
-                  aria-current="page"
-                >
+                <Link to="/inicio" className="nav-link" aria-current="page">
                   Inicio
                 </Link>
               </li>
@@ -46,9 +42,11 @@ const Nav = () => {
                 </Link>
               </li>
             </ul>
-            <Link to="/">
-              <button className="btn btn-outline-danger">Cerrar sesión</button>
-            </Link>
+                <Link to="/">
+                  <button className="btn btn-outline-danger">
+                    Cerrar sesión
+                  </button>
+                </Link>
           </div>
         </div>
       </nav>
