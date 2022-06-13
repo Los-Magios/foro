@@ -10,6 +10,7 @@ import Proyectos from './pages/Proyectos'
 import Foro from './pages/Foro'
 import Materias from './pages/Articulos/Materias'
 import VerPost from './pages/VerPost'
+import FormPost from './layouts/FormPosts'
 
 const Rutas = () => {
   return (
@@ -20,8 +21,10 @@ const Rutas = () => {
         <Route path="/articulos" element={<Articulos />} />
         <Route path="/proyectos" element={<Proyectos />} />
         <Route path="/foro" element={<Foro />} />
-        <Route path="/articulos/materias" element={<Materias />} />
         <Route path="/verpost" element={<VerPost />} />
+        <Route path="/postear" element={<FormPost />} />
+        <Route path="/articulos/materias" element={<Materias />} />
+
       </Routes>
     </Router>
   )

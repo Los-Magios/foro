@@ -6,13 +6,16 @@ const verPost = () => {
   return (
     <>
       <Nav></Nav>
-      <div className="container border-0 shadow h-100 my--3 px-5 mt-3">
-        <div className="">
+      <div className="container border my--3 px-5 mt-3 py-3">
+
+        <div>
           <h5 className="text-center">Problema Ejemplo 001</h5>
         </div>
+
         <div className="col d-flex flex-row justify-content-end">
           <p className="text-muted">Publicado: 06/06/2022 13:04hs</p>
         </div>
+
         <div className="border mb-3">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
@@ -23,17 +26,12 @@ const verPost = () => {
             eveniet, doloribus hic dolore earum ex tenetur sapiente ipsam
             quibusdam velit fugiat vitae blanditiis minus.
           </p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At ipsa amet distinctio incidunt eum fugit quos laboriosam blanditiis consectetur, maxime rem, nostrum animi sit accusamus, quisquam voluptatum quibusdam quia est!</p>
         </div>
-        <div className="mb-3">
-          <pre>
-            <code>
-              {"ERROR in src/pages/VerPost.jsx Line 29:13:  Parsing error: Unterminated string constant. (29:13) webpack compiled with 2 errors"}
-            </code>
-          </pre>
-        </div>
-
+      </div>
+      <div className="container border my--3 px-5 mt-3 py-3">
         {/* Preguntar */}
-        <div>
+        <div className="border">
           <FormPregunta></FormPregunta>
         </div>
 
@@ -68,7 +66,6 @@ const verPost = () => {
                 </div>
               </div>
             </li>
-
           </ul>
         </div>
       </div>
