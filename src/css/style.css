@@ -67,6 +67,16 @@ body {
   padding-top: 2rem;
 }
 
+.info-titulo {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.info-articulo {
+  text-align: justify;
+  padding: 2rem;
+}
+
 @keyframes slide {
   0% {
     transform: translateX(-25%);

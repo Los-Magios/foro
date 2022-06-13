@@ -10,6 +10,7 @@ import Proyectos from './pages/Proyectos'
 import Foro from './pages/Foro'
 import Materias from './pages/Articulos/Materias'
 import VerPost from './pages/VerPost'
+import VerArticulo from './pages/Articulos/VerArticulo'
 
 const Rutas = () => {
   return (
@@ -22,6 +23,7 @@ const Rutas = () => {
         <Route path="/foro" element={<Foro />} />
         <Route path="/articulos/materias" element={<Materias />} />
         <Route path="/verpost" element={<VerPost />} />
+        <Route path="/articulos/materias/verarticulo" element={<VerArticulo />} />
       </Routes>
     </Router>
   )
