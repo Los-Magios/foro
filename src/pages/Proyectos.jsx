@@ -23,7 +23,7 @@ const Proyectos = () => {
             <p className="card-text">
               <small className="text-muted">Last updated 3 mins ago</small>
             </p>
-            <Link className="btn btn-primary" to="#">
+            <Link className="btn btn-primary" to="/verproyecto">
               Ingresar
             </Link>
           </div>
@@ -45,7 +45,7 @@ const Proyectos = () => {
             <p className="card-text">
               <small className="text-muted">Last updated 3 mins ago</small>
             </p>
-            <Link className="btn btn-primary" to="#">
+            <Link className="btn btn-primary" to="/verproyecto">
               Ingresar
             </Link>
           </div>
@@ -67,7 +67,7 @@ const Proyectos = () => {
             <p className="card-text">
               <small className="text-muted">Last updated 3 mins ago</small>
             </p>
-            <Link className="btn btn-primary" to="#">
+            <Link className="btn btn-primary" to="/verproyecto">
               Ingresar
             </Link>
           </div>
@@ -89,7 +89,7 @@ const Proyectos = () => {
             <p className="card-text">
               <small className="text-muted">Last updated 3 mins ago</small>
             </p>
-            <Link className="btn btn-primary" to="#">
+            <Link className="btn btn-primary" to="/verproyecto">
               Ingresar
             </Link>
           </div>
