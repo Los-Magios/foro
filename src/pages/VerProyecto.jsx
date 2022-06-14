@@ -8,7 +8,7 @@ const VerProyecto = () => {
       <Nav></Nav>
       <div className="container border mt-3">
         <div>
-        <img src="banner.png" alt="" />
+          <img src="banner.png" alt="" />
           <h2 className="text-center">Nombre de ejemplo</h2>
         </div>
 
@@ -65,7 +65,6 @@ const VerProyecto = () => {
               </li>
               <li>
                 <a
-
                   target="_blank"
                   rel="noreferrer"
                   href="https://twitter.com/intent/tweet?text=Este foro es genial, hechale un vistazo&amp;url=twitter.com"

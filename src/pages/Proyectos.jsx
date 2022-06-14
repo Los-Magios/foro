@@ -1,12 +1,14 @@
 import Nav from "../layouts/Nav";
 //import PostsPosts from '../layouts/PostsPosts'
 import { Link } from "react-router-dom";
+import Buscador from "../layouts/Buscador";
 
 const Proyectos = () => {
   return (
     <>
       <Nav></Nav>
       <div className="container shadow col-sm-6">
+      <Buscador></Buscador>
         <div className="card mb-3">
           <img
             className="card-img-top"
