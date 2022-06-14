@@ -53,7 +53,7 @@ body {
 }
 
 .col-2 {
-  padding: 2rem;
+  
   font-size: 11pt;
 }
 
@@ -67,14 +67,21 @@ body {
   padding-top: 2rem;
 }
 
-.info-titulo {
-  text-align: center;
-  padding-top: 2rem;
+.card-header {
+  padding: 0.5rem;
 }
 
-.info-articulo {
+.card-body {
+  text-align: center;
+  padding-top: 0.5rem;
+  font-size: 14pt;
+  
+}
+
+.card-info {
+  font-size: 11pt;
   text-align: justify;
-  padding: 2rem;
+  padding: 0.5rem;
 }
 
 @keyframes slide {

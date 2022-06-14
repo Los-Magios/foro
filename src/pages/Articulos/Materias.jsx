@@ -19,23 +19,26 @@ const Materias = () => {
               </div> */}
               <div className='col-3'>
                 <div className='card'>
-                  <h6 >Materia</h6>
-                  <h3 className='info-titulo'><Link to='./VerArticulo'>Título de artículo</Link></h3>
-                  <p className='info-articulo'>Primera oración del contenido del artículo.</p>
+                  <div class="card-header">Materia</div>
+                  <div class="card-body"><Link to='./VerArticulo'>Título de artículo</Link>
+                    <div class="card-info">Primera oración del contenido del artículo.</div>
+                  </div>
                 </div>
               </div>
-              <div className='col-6'>
+              <div className='col-5'>
                 <div className='card'>
-                  <h3>Materia</h3>
-                  <h1><Link to='./VerArticulo'>Título de artículo</Link></h1>
-                  <p>Primera oración del contenido del artículo.</p>
+                  <div class="card-header">Materia</div>
+                  <div class="card-body"><Link to='./VerArticulo'>Título de artículo</Link>
+                    <div class="card-info">Primera oración del contenido del artículo.</div>
+                  </div>
                 </div>
               </div>
               <div className='col-3'>
-                <div className='card'>
-                  <h3>Materia</h3>
-                  <h1><Link to='./VerArticulo'>Título de artículo</Link></h1>
-                  <p>Primera oración del contenido del artículo.</p>
+              <div className='card'>
+                  <div class="card-header">Materia</div>
+                  <div class="card-body"><Link to='./VerArticulo'>Título de artículo</Link>
+                    <div class="card-info">Primera oración del contenido del artículo.</div>
+                  </div>
                 </div>
               </div>
               <Pagination></Pagination>
