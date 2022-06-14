@@ -1,12 +1,14 @@
 import Nav from "../layouts/Nav";
 //import PostsPosts from '../layouts/PostsPosts'
 import { Link } from "react-router-dom";
+import Buscador from "../layouts/Buscador";
 
 const Proyectos = () => {
   return (
     <>
       <Nav></Nav>
       <div className="container shadow col-sm-6">
+      <Buscador></Buscador>
         <div className="card mb-3">
           <img
             className="card-img-top"
@@ -23,7 +25,7 @@ const Proyectos = () => {
             <p className="card-text">
               <small className="text-muted">Last updated 3 mins ago</small>
             </p>
-            <Link className="btn btn-primary" to="#">
+            <Link className="btn btn-primary" to="/verproyecto">
               Ingresar
             </Link>
           </div>
@@ -45,7 +47,7 @@ const Proyectos = () => {
             <p className="card-text">
               <small className="text-muted">Last updated 3 mins ago</small>
             </p>
-            <Link className="btn btn-primary" to="#">
+            <Link className="btn btn-primary" to="/verproyecto">
               Ingresar
             </Link>
           </div>
@@ -67,7 +69,7 @@ const Proyectos = () => {
             <p className="card-text">
               <small className="text-muted">Last updated 3 mins ago</small>
             </p>
-            <Link className="btn btn-primary" to="#">
+            <Link className="btn btn-primary" to="/verproyecto">
               Ingresar
             </Link>
           </div>
@@ -89,7 +91,7 @@ const Proyectos = () => {
             <p className="card-text">
               <small className="text-muted">Last updated 3 mins ago</small>
             </p>
-            <Link className="btn btn-primary" to="#">
+            <Link className="btn btn-primary" to="/verproyecto">
               Ingresar
             </Link>
           </div>

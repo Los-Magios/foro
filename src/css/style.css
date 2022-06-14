@@ -100,3 +100,16 @@ body {
   background-repeat:no-repeat;
   background-position: center center;
 } */
+
+.share-links li{
+  display: inline;
+}
+
+.share-links i{
+  width: 2%;
+}
+
+.share-section{
+  margin: 2rem;
+  
+}
