@@ -5,7 +5,10 @@ const FormPosts = () => {
   return (
     <>
       <Nav></Nav>
-      <div className="container border-0 shadow h-100 my--3 px-5 my-3">
+      <div className="bg"></div>
+      <div className="bg bg2"></div>
+      <div className="bg bg3"></div>
+      <div className="fondonegro container border-0 shadow h-100 my--3 px-5 my-3">
         <form className="form py-3">
           <div className="form-group">
             <label>Título</label>

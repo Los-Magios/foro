@@ -17,7 +17,10 @@ const Materias = () => {
     return (
         <>
           <Nav></Nav>
-          <div className='container-fluid'>
+          <div className="bg"></div>
+      <div className="bg bg2"></div>
+      <div className="bg bg3"></div>
+          <div className='container mt-3 fondonegro'>
             <div className='row'>
               <div className='col-2'>
                 <NavLateral></NavLateral>

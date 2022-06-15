@@ -6,7 +6,10 @@ const verPost = () => {
   return (
     <>
       <Nav></Nav>
-      <div className="container border my--3 px-5 mt-3 py-3">
+      <div className="bg"></div>
+      <div className="bg bg2"></div>
+      <div className="bg bg3"></div>
+      <div className="container fondonegro border my--3 px-5 mt-3 py-3">
 
         <div>
           <h5 className="text-center">Problema Ejemplo 001</h5>

@@ -6,7 +6,10 @@ const Articulos = () => {
   return (
     <>
       <Nav></Nav>
-      <div className='container'>
+      <div className="bg"></div>
+      <div className="bg bg2"></div>
+      <div className="bg bg3"></div>
+      <div className='container mt-3'>
         <div className='row'>
           <div className='col-4'>
             <div className='card'>

@@ -6,9 +6,13 @@ const VerProyecto = () => {
   return (
     <>
       <Nav></Nav>
-      <div className="container border mt-3">
+      <div className="bg"></div>
+      <div className="bg bg2"></div>
+      <div className="bg bg3"></div>
+
+      <div className="container fondonegro border mt-3">
         <div>
-          <img src="banner.png" alt="" />
+          <img src="banner.png" className="banner" alt="" />
           <h2 className="text-center">Nombre de ejemplo</h2>
         </div>
 

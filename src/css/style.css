@@ -20,6 +20,7 @@ body {
   top: 0;
   z-index: -1;
 }
+ 
 
 .list-group-item {
   position: relative;
@@ -96,10 +97,26 @@ body {
 }
 
 .share-links i{
-  width: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .share-section{
   margin: 2rem;
   
+}
+
+/* #contenidop{
+  background-image: url("../../public/fondo1.jpg");
+  display: block;
+  background-size: 100%;
+  padding-top: 2%;
+} */
+
+.banner{
+  width: 100%;
+}
+
+.fondonegro{
+  background-color: white;
 }

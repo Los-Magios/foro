@@ -7,7 +7,10 @@ const Proyectos = () => {
   return (
     <>
       <Nav></Nav>
-      <div className="container shadow col-sm-6">
+      <div className="bg"></div>
+      <div className="bg bg2"></div>
+      <div className="bg bg3"></div>
+      <div className="container fondonegro mt-3 shadow col-sm-6">
       <Buscador></Buscador>
         <div className="card mb-3">
           <img

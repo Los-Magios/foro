@@ -7,7 +7,10 @@ const Foro = () => {
   return (
     <>
       <Nav />
-      <div className="container border-0 shadow h-100 my--3 px-5">
+      <div className="bg"></div>
+      <div className="bg bg2"></div>
+      <div className="bg bg3"></div>
+      <div className="container fondonegro border-0 shadow h-100 mt-3 px-5">
         <Buscador />
         <div className="row my-3">
           <div className="col text-center">
