@@ -1,6 +1,6 @@
-import Nav from "../../layouts/Nav";
-import NavLateral from "../../layouts/Nav-lateral";
-import FormPregunta from "../../layouts/FormPregunta";
+import Nav from "../layouts/Nav";
+import NavLateral from "../layouts/Nav-lateral";
+import FormPregunta from "../layouts/FormPregunta";
 
 const VerArticulo = () => {
   return (

@@ -6,7 +6,7 @@ const Nav = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <Link to="" className="navbar-brand">
-            <img src="favicon.ico" alt="" width="30" height="30" />
+            <img src="../../../../../icono.png" alt="" width="30" height="30" />
           </Link>
           <button
             className="navbar-toggler"

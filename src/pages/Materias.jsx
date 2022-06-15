@@ -1,6 +1,6 @@
-import Nav from "../../layouts/Nav";
+import Nav from "../layouts/Nav";
 // import NavLateral from '../../layouts/Nav-lateral'
-import Pagination from "../../layouts/Pagination";
+import Pagination from "../layouts/Pagination";
 import { Link } from "react-router-dom";
 
 //import Materias from '../articulos.json'
@@ -19,7 +19,7 @@ const Materias = () => {
           {/* <div className='col-2'>
                 <NavLateral></NavLateral>
               </div> */}
-          <div className="col-3">
+          <div className="col-3 mb-2">
             <div className="card">
               <div class="card-header">Materia</div>
               <div class="card-body">
@@ -30,7 +30,7 @@ const Materias = () => {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-6 mb-2">
             <div className="card">
               <div class="card-header">Materia</div>
               <div class="card-body">
@@ -41,7 +41,7 @@ const Materias = () => {
               </div>
             </div>
           </div>
-          <div className="col-3">
+          <div className="col-3 mb-2">
             <div className="card">
               <div class="card-header">Materia</div>
               <div class="card-body">
