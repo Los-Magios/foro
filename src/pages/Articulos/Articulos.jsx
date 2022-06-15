@@ -11,7 +11,7 @@ const Articulos = () => {
       <div className="bg bg3"></div>
       <div className='container-fluid mt-3'>
         <div className='row'>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Primer cuatrimestre
@@ -23,7 +23,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Primer cuatrimestre
@@ -35,7 +35,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Primer cuatrimestre
@@ -47,7 +47,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Primer cuatrimestre
@@ -59,7 +59,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Primer cuatrimestre
@@ -71,7 +71,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Primer cuatrimestre
@@ -83,7 +83,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Primer cuatrimestre
@@ -95,7 +95,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Primer cuatrimestre
@@ -107,7 +107,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
@@ -119,7 +119,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
@@ -131,7 +131,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
@@ -143,7 +143,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
@@ -155,7 +155,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
@@ -167,7 +167,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
@@ -179,7 +179,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
@@ -191,7 +191,7 @@ const Articulos = () => {
               </div>
             </div>
           </div>
-          <div className='col col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+          <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
             <div className='card'>
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
