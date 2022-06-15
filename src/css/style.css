@@ -54,7 +54,7 @@ body {
 }
 
 .col-2 {
-  padding: 2rem;
+  
   font-size: 11pt;
 }
 
@@ -66,6 +66,23 @@ body {
   width: 50rem;
   padding-left: 2rem;
   padding-top: 2rem;
+}
+
+.card-header {
+  padding: 0.5rem;
+}
+
+.card-body {
+  text-align: center;
+  padding-top: 0.5rem;
+  font-size: 14pt;
+  
+}
+
+.card-info {
+  font-size: 11pt;
+  text-align: justify;
+  padding: 0.5rem;
 }
 
 @keyframes slide {
