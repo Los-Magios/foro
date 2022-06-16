@@ -1,4 +1,5 @@
 import Nav from "../layouts/Nav";
+import NavLateral from "../layouts/Nav-lateral";
 
 const Home = () => {
   return (

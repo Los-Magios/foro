@@ -2,6 +2,7 @@ import Nav from "../layouts/Nav";
 //import ArticulosMateria from "./Articulos-materia";
 import { Link } from "react-router-dom";
 import Buscador from "../layouts/Buscador";
+import { motion } from "framer-motion";
 
 const Articulos = () => {
   return (
@@ -14,19 +15,25 @@ const Articulos = () => {
         <Buscador></Buscador>
         <div className='row'>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
-              <div className='card-header'>
-                1° año: Primer cuatrimestre
-              </div>
-              <div className='card-body'>
-                <h5 className='card-title'>Arquitectura y Sistemas Operativos</h5>
-                <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
-                <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
-              </div>
-            </div>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+                <div className='card-header'>
+                  1° año: Primer cuatrimestre
+                </div>
+                <div className='card-body'>
+                  <h5 className='card-title'>Arquitectura y Sistemas Operativos</h5>
+                  <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
+                  <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
+                </div>
+            </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Primer cuatrimestre
               </div>
@@ -35,10 +42,13 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+          </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Primer cuatrimestre
               </div>
@@ -47,10 +57,13 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Primer cuatrimestre
               </div>
@@ -59,10 +72,13 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Primer cuatrimestre
               </div>
@@ -71,10 +87,13 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Primer cuatrimestre
               </div>
@@ -83,10 +102,13 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Primer cuatrimestre
               </div>
@@ -95,10 +117,13 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Primer cuatrimestre
               </div>
@@ -107,10 +132,13 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
               </div>
@@ -119,10 +147,13 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
               </div>
@@ -131,10 +162,13 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
               </div>
@@ -143,10 +177,13 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
               </div>
@@ -155,10 +192,13 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
               </div>
@@ -167,10 +207,13 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
               </div>
@@ -179,10 +222,13 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
               </div>
@@ -191,10 +237,13 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4'>
-            <div className='card'>
+            <motion.div className='card'
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <div className='card-header'>
                 1° año: Segundo cuatrimestre
               </div>
@@ -203,7 +252,7 @@ const Articulos = () => {
                 <p className='card-text'>With supporting text below as a natural lead-in to additional content.</p>
                 <Link to='./Materias' className='btn btn-primary'>Ver artículos</Link>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
