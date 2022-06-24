@@ -1,6 +1,9 @@
 import React from "react";
 import Nav from "../layouts/Nav";
 import Carousel from "../layouts/Carousel";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
 
 const VerProyecto = () => {
   return (
@@ -54,6 +57,7 @@ const VerProyecto = () => {
           </ul>
           {/* <img src="ejemplo.png" width="100%" alt=""/> */}
           <Carousel></Carousel>
+          
           <section className="share-section">
             <ul class="share-links">
               <h4>Compartir</h4>
