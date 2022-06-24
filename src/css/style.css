@@ -99,8 +99,9 @@ body {
  margin-bottom: 1%;
 }
 
+
 .manejo {
-  width: 50%;
+  width: 100%;
 }
 /*
 #background {
@@ -143,3 +144,31 @@ body {
   background-color: rgba(255, 255, 255, 0);
 }
 
+.fa-id-badge{
+  font-size: 40px;
+  padding-top: 1%;
+}
+
+.carrborder{
+  width: 60%;
+  background-color: rgb(38, 35, 35);
+  padding-bottom: 1%;
+}
+
+.contbor{
+  background-color: rgb(38, 35, 35);
+  padding-bottom: 1%;
+  display:inline-block;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 1%;
+}
+.icono{
+  font-size: 30px;  
+}
+
+.inline{
+  padding-top: 2%;
+  display: inline;
+  margin-left: 3%;
+}

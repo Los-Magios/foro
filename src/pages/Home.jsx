@@ -1,17 +1,9 @@
 import Nav from "../layouts/Nav";
-import NavLateral from "../layouts/Nav-lateral";
+// import NavLateral from "../layouts/Nav-lateral";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
-import {
-  MDBNavbar,
-  MDBNavbarNav,
-  MDBNavbarItem,
-  MDBNavbarLink,
-  MDBNavbarToggler,
-  MDBContainer,
-  MDBIcon,
-} from "mdb-react-ui-kit";
+
 
 const Home = () => {
   return (
@@ -31,10 +23,11 @@ const Home = () => {
                 <a
                   className="btn btn-outline-light btn-lg"
                   target="_blank"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  rel="noreferrer"
+                  href="https://cms.aldeasinfantiles.es/uploads/2020/10/10195-1024x683.jpg"
                   role="button"
                 >
-                  Ver Video de Presentacion
+                  Ver presentación
                 </a>
                 <div className="container">
                   <p>
