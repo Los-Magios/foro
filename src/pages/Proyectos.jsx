@@ -2,6 +2,7 @@ import Nav from "../layouts/Nav";
 //import PostsPosts from '../layouts/PostsPosts'
 import { Link } from "react-router-dom";
 import Buscador from "../layouts/Buscador";
+import { motion } from "framer-motion";
 
 const Proyectos = () => {
   return (
@@ -12,7 +13,12 @@ const Proyectos = () => {
       <div className="bg bg3"></div>
       <div className="container fondonegro mt-3 shadow col-sm-6">
       <Buscador></Buscador>
-        <div className="card mb-3">
+        
+      <div className="card mb-3">
+        <motion.div className='card'
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.99 }}
+            >
           <img
             className="card-img-top"
             src="ejemplo.png"
@@ -32,9 +38,14 @@ const Proyectos = () => {
               Ingresar
             </Link>
           </div>
+          </motion.div>
         </div>
         <hr />
         <div className="card mb-3">
+        <motion.div className='card'
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.99 }}
+            >
           <img
             className="card-img-top"
             src="ejemplo.png"
@@ -54,9 +65,14 @@ const Proyectos = () => {
               Ingresar
             </Link>
           </div>
+          </motion.div>
         </div>
         <hr />
         <div className="card mb-3">
+        <motion.div className='card'
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.99 }}
+            >
           <img
             className="card-img-top"
             src="ejemplo.png"
@@ -76,9 +92,14 @@ const Proyectos = () => {
               Ingresar
             </Link>
           </div>
+          </motion.div>
         </div>
         <hr />
         <div className="card mb-3">
+        <motion.div className='card'
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.99 }}
+            >
           <img
             className="card-img-top"
             src="ejemplo.png"
@@ -98,6 +119,7 @@ const Proyectos = () => {
               Ingresar
             </Link>
           </div>
+          </motion.div>
         </div>
       </div>
     </>
