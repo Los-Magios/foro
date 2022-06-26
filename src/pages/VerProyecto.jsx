@@ -14,15 +14,17 @@ const VerProyecto = () => {
       <div className="bg bg3"></div>
       <div className="container fondonegro border mt-3 rounded-3">
         <div className="container border">
-          <div className="mx-2">
-            <i className="fa-solid fa-id-badge"></i>
-          </div>
-          <div className="col d-flex flex-row justify-content-end">
-            <p className="text-muted">Publicado: 13/09/1989 11:11hs</p>
-          </div>
-          <div>
+          <div className="text-center container border contbor rounded text-white">
+            <div className="col d-flex flex-row justify-content-end">
+              <p className="text-muted">Publicado: 13/09/1989 11:11hs</p>
+            </div>
+            <div className="mx-2">
+              <i className="fa-solid fa-id-badge"></i>
+            </div>
             {/* <img src="banner.png" className="banner" alt="" /> */}
-            <h2 className="text-center container"><u>Nombre de ejemplo</u></h2>
+            <h2>
+              <u>Nombre de ejemplo</u>
+            </h2>
           </div>
 
           <div className=" mb-3">
@@ -155,26 +157,26 @@ const VerProyecto = () => {
                   </h4>
                 </div>
                 <div className="inline border contbor rounded text-white">
-                <li>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://wa.me/?text=Este foro es genial, hechale un vistazo&amp;url=web.whatsapp.com"
-                    title="Compartir vía Whatsapp"
-                  >
-                    <i className="fa-brands fa-whatsapp-square icono"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://twitter.com/intent/tweet?text=Este foro es genial, échale un vistazo&amp;url=twitter.com"
-                    title="Compartir vía Twitter"
-                  >
-                    <i className="fa-brands fa-twitter icono"></i>
-                  </a>
-                </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://wa.me/?text=Este foro es genial, hechale un vistazo&amp;url=web.whatsapp.com"
+                      title="Compartir vía Whatsapp"
+                    >
+                      <i className="fa-brands fa-whatsapp-square icono"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://twitter.com/intent/tweet?text=Este foro es genial, échale un vistazo&amp;url=twitter.com"
+                      title="Compartir vía Twitter"
+                    >
+                      <i className="fa-brands fa-twitter icono"></i>
+                    </a>
+                  </li>
                 </div>
               </ul>
             </section>
