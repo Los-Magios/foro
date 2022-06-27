@@ -6,7 +6,7 @@ const Nav = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <Link to="" className="navbar-brand">
-            <img src="../../../../../icono.png" alt="" width="30" height="30" />
+            <h1 className="logo">IPF.INPUT</h1>
           </Link>
           <button
             className="navbar-toggler"

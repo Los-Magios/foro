@@ -12,6 +12,9 @@ const Home = () => {
         <Nav></Nav>
 
         <div className="p-5 text-center bg-image">
+          <div className="text-inversionz">
+                <h1 className="text-inversionz">IPF.INPUT</h1>
+          </div>
           <div
             className="mask"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
@@ -30,20 +33,6 @@ const Home = () => {
                   Ver presentación
                 </a>
                 <div className="container">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sint culpa labore corrupti omnis. Eos quisquam consequuntur
-                    impedit rem molestias mollitia? Maiores eum ipsa iure
-                    mollitia obcaecati! Dolores amet nesciunt repellat!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sint culpa labore corrupti omnis. Eos quisquam consequuntur
-                    impedit rem molestias mollitia? Maiores eum ipsa iure
-                    mollitia obcaecati! Dolores amet nesciunt repellat!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sint culpa labore corrupti omnis. Eos quisquam consequuntur
-                    impedit rem molestias mollitia? Maiores eum ipsa iure
-                    mollitia obcaecati! Dolores amet nesciunt repellat!
-                  </p>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Sint culpa labore corrupti omnis. Eos quisquam consequuntur
