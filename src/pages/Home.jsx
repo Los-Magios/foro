@@ -10,7 +10,6 @@ const Home = () => {
     <>
       <header>
         <Nav></Nav>
-
         <div className="p-5 text-center bg-image">
           <div className="text-inversionz">
                 <h1 className="text-inversionz">IPF.INPUT</h1>

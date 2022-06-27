@@ -23,7 +23,7 @@ body {
 }
  
 
-.list-group-item {
+.nav-lat {
   position: relative;
   display: block;
   padding: 0.5rem 1rem;
@@ -176,9 +176,9 @@ body {
 
 .text-inversionz{
   font-family: 'Iceland';
-  font-size: 15rem;
-  padding-top: 7rem;
-  padding-bottom: 10rem;
+  font-size: 400%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   color: white;
 }
 

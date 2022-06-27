@@ -24,7 +24,15 @@ const VerArticulo = () => {
                 deleniti odit autem temporibus placeat animi!
               </p>
             </div>
-            <FormPregunta></FormPregunta>
+            <div className="container">
+              <FormPregunta></FormPregunta>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            </div>
             <ul className="list-group list-group-flush list my--3 mt-3">
               <li className="list-group-item px-0 border-bottom">
                 <div className="row align-items-center">

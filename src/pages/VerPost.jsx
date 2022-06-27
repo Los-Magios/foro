@@ -32,30 +32,15 @@ const verPost = () => {
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At ipsa amet distinctio incidunt eum fugit quos laboriosam blanditiis consectetur, maxime rem, nostrum animi sit accusamus, quisquam voluptatum quibusdam quia est!</p>
         </div>
       </div>
-      <div className="container border my--3 px-5 mt-3 py-3">
+      <div className="container fondonegro border my--3 px-5 mt-3 py-3">
         {/* Preguntar */}
         <div className="border">
-          <FormPregunta></FormPregunta>
+          <FormPregunta></FormPregunta><br /><br /><br /><br /><br /><br />
         </div>
 
         {/* respuestas */}
-        <div>
+        <div className="">
           <ul className="list-group list-group-flush list my--3 mt-3">
-
-            <li className="list-group-item px-0 border-bottom">
-              <div className="row align-items-center">
-                <div className="col-auto">
-                  <div className="input-group">
-                    <button className="btn btn-success"><i className="far fa-thumbs-up"></i> 5</button>
-                    <h6 className="text-primary mx-3 mt-2">Bordón Milagroz</h6>
-                  </div>
-                </div>
-                <div className="col-auto ms--2">
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis iure illo explicabo aliquid in fuga corporis maxime at porro eveniet rem et quasi reprehenderit voluptas, hic modi fugit libero earum!</p>
-                </div>
-              </div>
-            </li>
-
             <li className="list-group-item px-0 border-bottom">
               <div className="row align-items-center">
                 <div className="col-auto">
