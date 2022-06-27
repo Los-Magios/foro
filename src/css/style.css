@@ -10,18 +10,7 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
-.bg {
-  animation: slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, rgb(48, 190, 62) 50%, rgb(21, 105, 161) 50%);
-  bottom: 0;
-  left: -50%;
-  opacity: .5;
-  position: fixed;
-  right: -50%;
-  top: 0;
-  z-index: -1;
-}
- 
+
 
 .nav-lat {
   position: relative;
@@ -33,6 +22,17 @@ body {
   border: 0px;
 }
 
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgb(48, 190, 62) 50%, rgb(21, 105, 161) 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: .5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
 .bg2 {
   animation-direction: alternate-reverse;
   animation-duration: 4s;
@@ -186,4 +186,8 @@ body {
   font-family: 'Iceland';
   font-size: auto;
   color: white;
+}
+
+.contenido{
+  padding-top:5%;
 }

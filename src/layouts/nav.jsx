@@ -5,6 +5,7 @@ const Nav = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
+          
           <Link to="/inicio" className="navbar-brand">
             <h1 className="logo">IPF.INPUT</h1>
           </Link>
